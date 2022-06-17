@@ -5,7 +5,7 @@ LIBRARIES += -lgit2
 a.out: main.c libgit2/build/libgit2.so
 	gcc $(CFLAGS) main.c $(LDFLAGS) $(LIBRARIES)
 
-libgit2/build/libgit2.so: libgit2/build
+libgit2/build/libgit2.so: | libgit2/build
 	cd libgit2/build && cmake .. && cmake --build .
 
 libgit2/build:
