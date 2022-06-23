@@ -1,6 +1,6 @@
 # libgit2-worktree-mre
 
-Minimum Reproducible Example for worktree handling with slashes with libgit2
+Minimal Reproducible Example for worktree handling with slashes with libgit2
 
 See https://github.com/libgit2/libgit2/issues/6327 for the upstream issue.
 
